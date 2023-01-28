@@ -99,8 +99,29 @@ representar uma tabela>Cadastramos a conexão em Development >configuração no 
 dotnet-ef migrations add CriacaoTabelaContato
 
 
+Para obtermos um recurso, ou seja, um determinado registro de uma API, usamos o verbo HTTP:
+r: GET
 
+Qual o significado de CRUD?
+r: CREATE, RED, UPDATE, DELETE.
 
+Ao obtermos um recurso de uma API, podemos passar algumas informações, dentre elas, o ID. 
+Caso determinado ID não exista, então a API nos retornará um resultado HTTP, que é:
+r: 404 NOT FOUND.
+
+O Entity Framework é muito usado em diversos projetos, pois auxilia muito o 
+desenvolvedor na construção de uma aplicação. Dentre suas principais 
+vantagens, podemos citar:
+r: Fácil integração com banco de dados, como criação de tabelas e execução de comandos CRUD no banco de dados, sem a necessidade de excrevermos comandos SQL.
+
+Para inserirmos um novo recurso de uma API, ou seja, incluir um novo registro, usamos o verbo HTTP:
+r: POST.
+
+Para apagarmos um novo recurso de uma API, ou seja, remover um registro existente, usamos o verbo HTTP:
+r: DELETE.
+
+Para atualizarmos um recurso de uma API, ou seja, atualizar um registro existente, usamos o verbo HTTP:
+r: PUT.
 
 
 
