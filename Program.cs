@@ -123,6 +123,17 @@ r: DELETE.
 Para atualizarmos um recurso de uma API, ou seja, atualizar um registro existente, usamos o verbo HTTP:
 r: PUT.
 
+---API
+Application Programming Interface: é uma forma de comunicação entre computadores ou programas de
+computadores.
+Em outras palavras, é um software que fornece informações para outro software.
+Integração entre sistemas, ela serve pra buscar uma informação contida em um outro sistema ou em um
+outro lugar e retornar essa informação até voce.
+Intermédio entre o server e o cliente
+Cada API tem uma entrada diferente, retorna diferente.
+Pensa que uma API é um outro sistema que vc precisa saber usar esse sistema pra fazer uma integração com o seu sistema
+ou pra vc poder obter uma informação que vc deseja.
+
 
 
 
